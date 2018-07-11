@@ -1,3 +1,5 @@
-shp/
-venv/
+shp/*
+venv/*
 *.pyc
+db/dumps/*
+.vscode/

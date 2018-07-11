@@ -28,7 +28,7 @@ class DBManager():
     clean_query = "DROP TABLE IF EXISTS %s.%s;" % ( schema, tablename )
     self.cur.execute( clean_query )
     
-    query = "CREATE TABLE IF NOT EXISTS %s.%s (" % ( schema, tablename );
+    query = "CREATE TABLE IF NOT EXISTS %s.%s (" % ( schema, tablename )
     
     tablefields = list()
     
